@@ -12,6 +12,7 @@ export const Container = styled(SafeAreaView)`
 export const Content = styled.View `
     flex: 1;
     justify-content: center;
+    margin-bottom: 215px;
 `;
 
 export const Icon = styled(UsersThree).attrs(({theme}) => ({
